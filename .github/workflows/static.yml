@@ -22,15 +22,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+  post-upload:
+    runs-on: ububtu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: move file
         run: cd js && mv upload/bcjh* . && rm -r upload
       - name: Commit files
@@ -44,6 +38,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+
+  # Single deploy job since we're just deploying
+  deploy:
+    if: ${{ always() }}
+    needs: post-upload
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
