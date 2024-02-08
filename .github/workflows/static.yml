@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   post-upload:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: move file
         run: cd js && mv upload/bcjh* . && rm -r upload
@@ -41,7 +41,7 @@ jobs:
 
   # Single deploy job since we're just deploying
   deploy:
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     needs: post-upload
     environment:
       name: github-pages
