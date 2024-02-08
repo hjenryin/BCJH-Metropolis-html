@@ -25,6 +25,8 @@ jobs:
   post-upload:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: move file
         run: cd js && mv upload/bcjh* . && rm -r upload
       - name: Commit files
