@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/ee34ff06-72d4-41e3-adcb-a3870f5b86af/emsdk-main/upstream/emscripten/cache/sysroot")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/43a6dc24-a5c9-4c66-af0f-ea2488204467/emsdk-main/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
