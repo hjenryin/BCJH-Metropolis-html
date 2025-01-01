@@ -7,7 +7,7 @@ self.addEventListener('message', e => {
   Module.onRuntimeInitialized = function () {
     let result = '';
     try {
-      result = Module.run(e.data.data, e.data.rule, e.data.passline, e.data.iterChef, e.data.iterRep, e.data.allowTool, progressCall);
+      result = Module.run(e.data.data, e.data.rule, e.data.passline, e.data.iterChef, e.data.iterRep, e.data.allowTool,"PgEAAA4EAAADAwAAiQQAAMECAACSBAAABwAAADwAAAACAAAAZAAAAAEAAAAAAAAABQAAAGQAAAAEAAAAZAAAAAEAAAAAAAAAQwAAAFkAAAB4AgAAiwAAAHcCAAABAgAADQAAAHkCAAAyAAAA9gEAAHoCAAASAAAAIAEAAPwBAABFAAAAXgAAADICAAD4AQAA", progressCall);
     } catch (err) {
       result = `Error: ${err}`;
     }
