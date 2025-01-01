@@ -57,6 +57,7 @@ jobs:
       - name: Prepare Debug
         run: |
           git checkout debug-online
+          cd js && mv upload/bcjh* . && rm -r upload
           cd ..; cp -r BCJH-Metropolis-html/ debug/; mv  debug/ BCJH-Metropolis-html/; cd BCJH-Metropolis-html
           rm -r debug/.github; rm -r debug/.git
           # git checkout test-emscripten # Use the debug version
