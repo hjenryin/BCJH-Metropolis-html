@@ -16,7 +16,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpx6fem7c1.js
+// include: /tmp/tmpxfr1d9ix.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -194,21 +194,21 @@ var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
 
   })();
 
-// end include: /tmp/tmpx6fem7c1.js
-// include: /tmp/tmp8_q27o8f.js
+// end include: /tmp/tmpxfr1d9ix.js
+// include: /tmp/tmpn4v3skzh.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['ENVIRONMENT_IS_PTHREAD'] || Module['$ww']) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp8_q27o8f.js
-// include: /tmp/tmpuvwm3g05.js
+  // end include: /tmp/tmpn4v3skzh.js
+// include: /tmp/tmpu8e9zu94.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach(function(task) {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpuvwm3g05.js
+  // end include: /tmp/tmpu8e9zu94.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1997,7 +1997,10 @@ function dbg(...args) {
       return Math.ceil(size / alignment) * alignment;
     };
   var mmapAlloc = (size) => {
-      abort('internal error: mmapAlloc called but `emscripten_builtin_memalign` native symbol not exported');
+      size = alignMemory(size, 65536);
+      var ptr = _emscripten_builtin_memalign(65536, size);
+      if (!ptr) return 0;
+      return zeroMemory(ptr, size);
     };
   var MEMFS = {
   ops_table:null,
@@ -5647,6 +5650,54 @@ function dbg(...args) {
       __emval_decref(handle);
     };
 
+  
+  
+  
+  
+  
+  var convertI32PairToI53Checked = (lo, hi) => {
+      assert(lo == (lo >>> 0) || lo == (lo|0)); // lo should either be a i32 or a u32
+      assert(hi === (hi|0));                    // hi should be a i32
+      return ((hi + 0x200000) >>> 0 < 0x400001 - !!lo) ? (lo >>> 0) + hi * 4294967296 : NaN;
+    };
+  function __mmap_js(len,prot,flags,fd,offset_low, offset_high,allocated,addr) {
+    var offset = convertI32PairToI53Checked(offset_low, offset_high);
+  
+    
+  try {
+  
+      if (isNaN(offset)) return 61;
+      var stream = SYSCALLS.getStreamFromFD(fd);
+      var res = FS.mmap(stream, len, offset, prot, flags);
+      var ptr = res.ptr;
+      HEAP32[((allocated)>>2)] = res.allocated;
+      HEAPU32[((addr)>>2)] = ptr;
+      return 0;
+    } catch (e) {
+    if (typeof FS == 'undefined' || !(e.name === 'ErrnoError')) throw e;
+    return -e.errno;
+  }
+  ;
+  }
+
+  
+  function __munmap_js(addr,len,prot,flags,fd,offset_low, offset_high) {
+    var offset = convertI32PairToI53Checked(offset_low, offset_high);
+  
+    
+  try {
+  
+      var stream = SYSCALLS.getStreamFromFD(fd);
+      if (prot & 2) {
+        SYSCALLS.doMsync(addr, stream, len, flags, offset);
+      }
+    } catch (e) {
+    if (typeof FS == 'undefined' || !(e.name === 'ErrnoError')) throw e;
+    return -e.errno;
+  }
+  ;
+  }
+
   var _abort = () => {
       abort('native code called abort()');
     };
@@ -5876,11 +5927,6 @@ function dbg(...args) {
   }
 
   
-  var convertI32PairToI53Checked = (lo, hi) => {
-      assert(lo == (lo >>> 0) || lo == (lo|0)); // lo should either be a i32 or a u32
-      assert(hi === (hi|0));                    // hi should be a i32
-      return ((hi + 0x200000) >>> 0 < 0x400001 - !!lo) ? (lo >>> 0) + hi * 4294967296 : NaN;
-    };
   function _fd_seek(fd,offset_low, offset_high,whence,newOffset) {
     var offset = convertI32PairToI53Checked(offset_low, offset_high);
   
@@ -6309,6 +6355,10 @@ var wasmImports = {
   /** @export */
   _emval_run_destructors: __emval_run_destructors,
   /** @export */
+  _mmap_js: __mmap_js,
+  /** @export */
+  _munmap_js: __munmap_js,
+  /** @export */
   abort: _abort,
   /** @export */
   emscripten_date_now: _emscripten_date_now,
@@ -6383,11 +6433,16 @@ var wasmImports = {
 };
 var wasmExports = createWasm();
 var ___wasm_call_ctors = createExportWrapper('__wasm_call_ctors');
-var _malloc = createExportWrapper('malloc');
-var __Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE = Module['__Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE'] = createExportWrapper('_Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE');
 var _free = createExportWrapper('free');
+var __ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE18GradeBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE18GradeBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE18GradeBuffConditionE11instantiateEv');
+var __ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv');
+var __ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv');
+var __ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv');
+var __Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE = Module['__Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE'] = createExportWrapper('_Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE');
+var _malloc = createExportWrapper('malloc');
 var ___getTypeName = createExportWrapper('__getTypeName');
 var _fflush = createExportWrapper('fflush');
+var _emscripten_builtin_memalign = createExportWrapper('emscripten_builtin_memalign');
 var _setThrew = createExportWrapper('setThrew');
 var setTempRet0 = createExportWrapper('setTempRet0');
 var _emscripten_stack_init = () => (_emscripten_stack_init = wasmExports['emscripten_stack_init'])();
@@ -6398,9 +6453,9 @@ var stackSave = createExportWrapper('stackSave');
 var stackRestore = createExportWrapper('stackRestore');
 var stackAlloc = createExportWrapper('stackAlloc');
 var _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmExports['emscripten_stack_get_current'])();
+var ___cxa_free_exception = createExportWrapper('__cxa_free_exception');
 var ___cxa_decrement_exception_refcount = createExportWrapper('__cxa_decrement_exception_refcount');
 var ___cxa_increment_exception_refcount = createExportWrapper('__cxa_increment_exception_refcount');
-var ___cxa_free_exception = createExportWrapper('__cxa_free_exception');
 var ___get_exception_message = createExportWrapper('__get_exception_message');
 var ___cxa_can_catch = createExportWrapper('__cxa_can_catch');
 var ___cxa_is_pointer_type = createExportWrapper('__cxa_is_pointer_type');
@@ -6411,6 +6466,17 @@ var dynCall_jiiii = Module['dynCall_jiiii'] = createExportWrapper('dynCall_jiiii
 var dynCall_iiiiij = Module['dynCall_iiiiij'] = createExportWrapper('dynCall_iiiiij');
 var dynCall_iiiiijj = Module['dynCall_iiiiijj'] = createExportWrapper('dynCall_iiiiijj');
 var dynCall_iiiiiijj = Module['dynCall_iiiiiijj'] = createExportWrapper('dynCall_iiiiiijj');
+
+function invoke_iii(index,a1,a2) {
+  var sp = stackSave();
+  try {
+    return getWasmTableEntry(index)(a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
 
 function invoke_iiii(index,a1,a2,a3) {
   var sp = stackSave();
@@ -6427,17 +6493,6 @@ function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)(a1);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_iii(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    return getWasmTableEntry(index)(a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
