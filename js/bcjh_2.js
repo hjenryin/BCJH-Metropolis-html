@@ -16,7 +16,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpfua_ctsi.js
+// include: /tmp/tmpeoznenwv.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -190,25 +190,25 @@ var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
     }
 
     }
-    loadPackage({"files": [{"filename": "/data.min.json", "start": 0, "end": 1659901}], "remote_package_size": 1659901});
+    loadPackage({"files": [{"filename": "/data.min.json", "start": 0, "end": 1567146}], "remote_package_size": 1567146});
 
   })();
 
-// end include: /tmp/tmpfua_ctsi.js
-// include: /tmp/tmpatzmanfy.js
+// end include: /tmp/tmpeoznenwv.js
+// include: /tmp/tmp2t_654bp.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['ENVIRONMENT_IS_PTHREAD'] || Module['$ww']) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpatzmanfy.js
-// include: /tmp/tmpvntim1ef.js
+  // end include: /tmp/tmp2t_654bp.js
+// include: /tmp/tmpdw0jcr4r.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach(function(task) {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpvntim1ef.js
+  // end include: /tmp/tmpdw0jcr4r.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1832,10 +1832,7 @@ function dbg(...args) {
       return Math.ceil(size / alignment) * alignment;
     };
   var mmapAlloc = (size) => {
-      size = alignMemory(size, 65536);
-      var ptr = _emscripten_builtin_memalign(65536, size);
-      if (!ptr) return 0;
-      return zeroMemory(ptr, size);
+      abort('internal error: mmapAlloc called but `emscripten_builtin_memalign` native symbol not exported');
     };
   var MEMFS = {
   ops_table:null,
@@ -6172,11 +6169,10 @@ var __ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOut
 var __ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE18GradeBuffConditionE11instantiateEv');
 var __ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_27PortableBinaryOutputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv');
 var __ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv = Module['__ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv'] = createExportWrapper('_ZN6cereal6detail33polymorphic_serialization_supportINS_26PortableBinaryInputArchiveE33ThreeSameCookAbilityBuffConditionE11instantiateEv');
-var __Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibN10emscripten3valE = Module['__Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibN10emscripten3valE'] = createExportWrapper('_Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibN10emscripten3valE');
+var __Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE = Module['__Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE'] = createExportWrapper('_Z5runjsRKNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_iiibS7_N10emscripten3valE');
 var _malloc = createExportWrapper('malloc');
 var ___getTypeName = createExportWrapper('__getTypeName');
 var _fflush = createExportWrapper('fflush');
-var _emscripten_builtin_memalign = createExportWrapper('emscripten_builtin_memalign');
 var ___trap = () => (___trap = wasmExports['__trap'])();
 var _emscripten_stack_init = () => (_emscripten_stack_init = wasmExports['emscripten_stack_init'])();
 var _emscripten_stack_get_free = () => (_emscripten_stack_get_free = wasmExports['emscripten_stack_get_free'])();
