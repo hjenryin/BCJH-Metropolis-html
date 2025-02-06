@@ -1,0 +1,2706 @@
+{
+    "Id": 620200,
+    "Title": "年兽 第三关",
+    "DisableCondimentEffect": true,
+    "DisableDecorationEffect": true,
+    "SatisfyRewardType": 1,
+    "SatisfyExtraValue": 30,
+    "SatisfyDeductValue": 5,
+    "Satiety": 21,
+    "GuestType": "Boss",
+    "IntentList": [
+        [
+            471,
+            349,
+            27,
+            171
+        ],
+        [
+            150,
+            129,
+            43,
+            11
+        ]
+    ],
+    "EndTime": 1738123200,
+    "start_time": "2023-07-07T04:00:00.000Z",
+    "end_time": "2099-07-14T04:00:00.000Z",
+    "buffs": [
+        {
+            "buffId": 2,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "炒技法料理售价+50%"
+        },
+        {
+            "buffId": 3,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "炸技法料理售价+50%"
+        },
+        {
+            "buffId": 5,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "切技法料理售价+50%"
+        },
+        {
+            "buffId": 6,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "蒸技法料理售价+50%"
+        },
+        {
+            "buffId": 7,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "煮技法料理售价+50%"
+        },
+        {
+            "buffId": 10,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 2,
+            "desc": "切技法料理售价+50%"
+        },
+        {
+            "buffId": 13,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "lastRounds": 2,
+            "desc": "炒技法料理饱腹感+1"
+        },
+        {
+            "buffId": 20,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "lastRounds": 2,
+            "desc": "烤技法料理饱腹感+1"
+        },
+        {
+            "buffId": 22,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "lastRounds": 2,
+            "desc": "切技法料理饱腹感+1"
+        },
+        {
+            "buffId": 23,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "lastRounds": 2,
+            "desc": "蒸技法料理饱腹感+1"
+        },
+        {
+            "buffId": 24,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "lastRounds": 2,
+            "desc": "煮技法料理饱腹感+1"
+        },
+        {
+            "buffId": 25,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "SatietyChange",
+            "effectValue": -1,
+            "lastRounds": 2,
+            "desc": "炒技法料理饱腹感-1"
+        },
+        {
+            "buffId": 29,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": -1,
+            "lastRounds": 1,
+            "desc": "切技法料理饱腹感-1"
+        },
+        {
+            "buffId": 32,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "SatietyChange",
+            "effectValue": -1,
+            "lastRounds": 2,
+            "desc": "烤技法料理饱腹感-1"
+        },
+        {
+            "buffId": 33,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "SatietyChange",
+            "effectValue": -1,
+            "lastRounds": 2,
+            "desc": "炸技法料理饱腹感-1"
+        },
+        {
+            "buffId": 34,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": -1,
+            "lastRounds": 2,
+            "desc": "切技法料理饱腹感-1"
+        },
+        {
+            "buffId": 39,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 1,
+            "desc": "切技法料理售价+100%"
+        },
+        {
+            "buffId": 40,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 1,
+            "desc": "蒸技法料理售价+100%"
+        },
+        {
+            "buffId": 41,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 1,
+            "desc": "炒技法料理售价+100%"
+        },
+        {
+            "buffId": 44,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 1,
+            "desc": "烤技法料理售价+100%"
+        },
+        {
+            "buffId": 46,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "炒技法料理基础售价+50%"
+        },
+        {
+            "buffId": 47,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 1,
+            "desc": "煮技法料理售价+100%"
+        },
+        {
+            "buffId": 48,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "烤技法料理基础售价+50%"
+        },
+        {
+            "buffId": 49,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "炸技法料理基础售价+50%"
+        },
+        {
+            "buffId": 50,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "lastRounds": 2,
+            "desc": "切技法料理饱腹感-2"
+        },
+        {
+            "buffId": 51,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 2,
+            "desc": "切技法料理售价+100%"
+        },
+        {
+            "buffId": 52,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "lastRounds": 2,
+            "desc": "煮技法料理饱腹感-2"
+        },
+        {
+            "buffId": 53,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "lastRounds": 2,
+            "desc": "炒技法料理饱腹感-2"
+        },
+        {
+            "buffId": 54,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "lastRounds": 2,
+            "desc": "煮技法料理饱腹感-3"
+        },
+        {
+            "buffId": 55,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "蒸技法料理基础售价+50%"
+        },
+        {
+            "buffId": 56,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 1,
+            "desc": "煮技法料理基础售价+50%"
+        },
+        {
+            "buffId": 57,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 2,
+            "desc": "炒技法料理售价+100%"
+        },
+        {
+            "buffId": 58,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 2,
+            "desc": "煮技法料理售价+100%"
+        },
+        {
+            "buffId": 59,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 2,
+            "desc": "烤技法料理售价+100%"
+        },
+        {
+            "buffId": 60,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "lastRounds": 2,
+            "desc": "蒸技法料理饱腹感-2"
+        },
+        {
+            "buffId": 61,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 2,
+            "desc": "苦技法料理基础售价+50%"
+        },
+        {
+            "buffId": 62,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "lastRounds": 2,
+            "desc": "炸技法料理售价+100%"
+        },
+        {
+            "buffId": 101,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "lastRounds": 0,
+            "desc": "4火料理售价+50%"
+        }
+    ],
+    "intents": [
+        {
+            "intentId": 1,
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 4,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "切：本道料理售价+50%"
+        },
+        {
+            "intentId": 5,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "切：本道料理售价+100%"
+        },
+        {
+            "intentId": 8,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "煮：本道料理售价+100%"
+        },
+        {
+            "intentId": 9,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "煮：本道料理售价-150%"
+        },
+        {
+            "intentId": 10,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "蒸：本道料理售价+50%"
+        },
+        {
+            "intentId": 11,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "蒸：本道料理售价+100%"
+        },
+        {
+            "intentId": 12,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "蒸：本道料理售价-150%"
+        },
+        {
+            "intentId": 14,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "炒：本道料理售价+100%"
+        },
+        {
+            "intentId": 16,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 80,
+            "desc": "炸：本道料理售价+80%"
+        },
+        {
+            "intentId": 17,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "炸：本道料理售价+100%"
+        },
+        {
+            "intentId": 18,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "烤：本道料理售价+50%"
+        },
+        {
+            "intentId": 19,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "烤：本道料理售价+100%"
+        },
+        {
+            "intentId": 20,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 15,
+            "desc": "炒：本道料理基础售价+15%"
+        },
+        {
+            "intentId": 23,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "切：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 24,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "炸：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 25,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "炒：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 26,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "CreateIntent",
+            "effectValue": 42,
+            "desc": "烤：下道料理为辣时饱腹感+3"
+        },
+        {
+            "intentId": 27,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "PriceChangePercent",
+            "effectValue": 200,
+            "desc": "酸：本道料理售价+200%"
+        },
+        {
+            "intentId": 33,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "苦：本道料理售价+50%"
+        },
+        {
+            "intentId": 34,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "PriceChangePercent",
+            "effectValue": 60,
+            "desc": "苦：本道料理售价+60%"
+        },
+        {
+            "intentId": 35,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "甜：本道料理售价+100%"
+        },
+        {
+            "intentId": 36,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "辣：本道料理售价+50%"
+        },
+        {
+            "intentId": 37,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 15,
+            "desc": "苦：本道料理基础售价+15%"
+        },
+        {
+            "intentId": 38,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChange",
+            "effectValue": 150,
+            "desc": "辣：本道料理基础售价+150"
+        },
+        {
+            "intentId": 39,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 15,
+            "desc": "辣：本道料理基础售价+15%"
+        },
+        {
+            "intentId": 41,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "辣：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 42,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "辣：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 43,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "苦：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 44,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "desc": "咸：本道料理饱腹感+1"
+        },
+        {
+            "intentId": 45,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "甜：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 46,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "甜：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 53,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "鲜：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 54,
+            "conditionType": "Order",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChange",
+            "effectValue": 100,
+            "desc": "第三道菜：第三道菜基础售价+100"
+        },
+        {
+            "intentId": 55,
+            "conditionType": "Order",
+            "conditionValue": "1",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "第一道菜：第一道菜意图生效次数加一"
+        },
+        {
+            "intentId": 56,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "第二道菜：第二道菜意图生效次数加一"
+        },
+        {
+            "intentId": 57,
+            "conditionType": "Order",
+            "conditionValue": "3",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "第三道菜：第三道菜意图生效次数加一"
+        },
+        {
+            "intentId": 58,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "1火：本道料理售价+100%"
+        },
+        {
+            "intentId": 59,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "3火：本道料理售价+50%"
+        },
+        {
+            "intentId": 60,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": 30,
+            "desc": "5火：本道料理售价+30%"
+        },
+        {
+            "intentId": 61,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "5火：本道料理售价+50%"
+        },
+        {
+            "intentId": 62,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": -100,
+            "desc": "5火：本道料理售价-100%"
+        },
+        {
+            "intentId": 63,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 25,
+            "desc": "1火：本道料理基础售价+25%"
+        },
+        {
+            "intentId": 64,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "3火：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 66,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "4火：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 67,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "5火：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 72,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 5,
+            "desc": "三道切：下阶段切技法料理售价+50%"
+        },
+        {
+            "intentId": 73,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 7,
+            "desc": "三道煮：下阶段煮技法料理售价+50%"
+        },
+        {
+            "intentId": 74,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 6,
+            "desc": "三道蒸：下阶段蒸技法料理售价+50%"
+        },
+        {
+            "intentId": 77,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 10,
+            "desc": "三道炒：下两阶段切技法料理售价+50%"
+        },
+        {
+            "intentId": 81,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 5,
+            "desc": "三道炒：下阶段切技法料理售价+50%"
+        },
+        {
+            "intentId": 82,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 6,
+            "desc": "三道炸：下阶段蒸技法料理售价+50%"
+        },
+        {
+            "intentId": 83,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 7,
+            "desc": "三道烤：下阶段煮技法料理售价+50%"
+        },
+        {
+            "intentId": 84,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "PriceChangePercent",
+            "effectValue": 30,
+            "desc": "酸：本道料理售价+30%"
+        },
+        {
+            "intentId": 85,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "酸：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 92,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 24,
+            "desc": "三道炸：下两阶段煮技法料理饱腹感+1"
+        },
+        {
+            "intentId": 93,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 23,
+            "desc": "三道烤：下两阶段蒸技法料理饱腹感+1"
+        },
+        {
+            "intentId": 94,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 22,
+            "desc": "三道炒：下两阶段切技法料理饱腹感+1"
+        },
+        {
+            "intentId": 101,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "SatietyChange",
+            "effectValue": 5,
+            "desc": "1火：本道料理饱腹感+5"
+        },
+        {
+            "intentId": 106,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": -100,
+            "desc": "4火：本道料理售价-100%"
+        },
+        {
+            "intentId": 107,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "BasicPriceChange",
+            "effectValue": 300,
+            "desc": "1火：本道料理基础售价+300"
+        },
+        {
+            "intentId": 108,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "辣：本道料理售价+100%"
+        },
+        {
+            "intentId": 109,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateIntent",
+            "effectValue": 132,
+            "desc": "炒：下道料理为辣时基础售价+30%"
+        },
+        {
+            "intentId": 110,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "3火：本道料理售价+100%"
+        },
+        {
+            "intentId": 113,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 39,
+            "desc": "三道炒：下阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 115,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "咸：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 117,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "第二道菜：第二道菜基础售价+500"
+        },
+        {
+            "intentId": 118,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": -5,
+            "desc": "3火：本道料理饱腹感-5"
+        },
+        {
+            "intentId": 120,
+            "conditionType": "Order",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "第三道菜：第三道菜基础售价+500"
+        },
+        {
+            "intentId": 124,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 41,
+            "desc": "三道切：下阶段炒技法料理售价+100%"
+        },
+        {
+            "intentId": 125,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "2火：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 126,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "3火：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 127,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "切：本道料理基础售价+500"
+        },
+        {
+            "intentId": 129,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 150,
+            "desc": "炒：本道料理售价+150%"
+        },
+        {
+            "intentId": 130,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "4火：本道料理售价+50%"
+        },
+        {
+            "intentId": 131,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "BasicPriceChange",
+            "effectValue": 1000,
+            "desc": "1火：本道料理基础售价+1000"
+        },
+        {
+            "intentId": 132,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 30,
+            "desc": "辣：本道料理基础售价+30%"
+        },
+        {
+            "intentId": 135,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 39,
+            "desc": "三道烤：下阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 136,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 40,
+            "desc": "三道炸：下阶段蒸技法料理售价+100%"
+        },
+        {
+            "intentId": 139,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "CreateIntent",
+            "effectValue": 108,
+            "desc": "苦：下道料理为辣时售价+100%"
+        },
+        {
+            "intentId": 140,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "辣：本道料理基础售价+500"
+        },
+        {
+            "intentId": 145,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "1火：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 146,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "第二道菜：第二道菜售价+100%"
+        },
+        {
+            "intentId": 147,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "鲜：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 148,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "炒：本道料理基础售价+500"
+        },
+        {
+            "intentId": 149,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "4火：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 150,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "3火：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 151,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "2火：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 156,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "2火：本道料理售价+100%"
+        },
+        {
+            "intentId": 157,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "苦：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 158,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "CreateIntent",
+            "effectValue": 165,
+            "desc": "煮：下道料理饱腹感-4"
+        },
+        {
+            "intentId": 159,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "CreateIntent",
+            "effectValue": 4,
+            "desc": "1火：下道料理为切时售价+50%"
+        },
+        {
+            "intentId": 160,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 100,
+            "desc": "酸：本道料理基础售价+100%"
+        },
+        {
+            "intentId": 161,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateIntent",
+            "effectValue": 163,
+            "desc": "炒：下道料理为炸时基础售价+200"
+        },
+        {
+            "intentId": 162,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "CreateIntent",
+            "effectValue": 164,
+            "desc": "煮：下道料理为蒸时基础售价+200"
+        },
+        {
+            "intentId": 163,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "炸：本道料理基础售价+200"
+        },
+        {
+            "intentId": 164,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "蒸：本道料理基础售价+200"
+        },
+        {
+            "intentId": 165,
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "本道料理饱腹感-4"
+        },
+        {
+            "intentId": 166,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "CreateIntent",
+            "effectValue": 168,
+            "desc": "烤：下道料理售价+100%"
+        },
+        {
+            "intentId": 167,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "CreateIntent",
+            "effectValue": 168,
+            "desc": "切：下道料理售价+100%"
+        },
+        {
+            "intentId": 168,
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "本道料理售价+100%"
+        },
+        {
+            "intentId": 171,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "4火：本道料理售价+100%"
+        },
+        {
+            "intentId": 172,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "5火：本道料理售价+100%"
+        },
+        {
+            "intentId": 173,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 46,
+            "desc": "三道切：下阶段炒技法料理基础售价+50%"
+        },
+        {
+            "intentId": 174,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 34,
+            "desc": "三道炒：下两阶段切技法料理饱腹感-1"
+        },
+        {
+            "intentId": 177,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 47,
+            "desc": "三道烤：下阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 179,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 47,
+            "desc": "三道炒：下阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 180,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 44,
+            "desc": "三道炸：下阶段烤技法料理售价+100%"
+        },
+        {
+            "intentId": 183,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 39,
+            "desc": "三道切：下阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 184,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 48,
+            "desc": "三道蒸：下阶段烤技法料理基础售价+50%"
+        },
+        {
+            "intentId": 185,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 32,
+            "desc": "三道蒸：下两阶段烤技法料理饱腹感-1"
+        },
+        {
+            "intentId": 186,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 47,
+            "desc": "三道炸：下阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 188,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 40,
+            "desc": "三道切：下阶段蒸技法料理售价+100%"
+        },
+        {
+            "intentId": 189,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "蒸：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 190,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "甜：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 194,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 47,
+            "desc": "三道煮：下阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 195,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 49,
+            "desc": "三道煮：下阶段炸技法料理基础售价+50%"
+        },
+        {
+            "intentId": 196,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 33,
+            "desc": "三道煮：下两阶段炸技法料理饱腹感-1"
+        },
+        {
+            "intentId": 197,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "鲜：本道料理售价-150%"
+        },
+        {
+            "intentId": 199,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "CreateIntent",
+            "effectValue": 108,
+            "desc": "3火：下道料理为辣时售价+100%"
+        },
+        {
+            "intentId": 200,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "炒：本道料理基础售价+200"
+        },
+        {
+            "intentId": 204,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 40,
+            "desc": "三道蒸：下阶段蒸技法料理售价+100%"
+        },
+        {
+            "intentId": 207,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "咸：本道料理售价-150%"
+        },
+        {
+            "intentId": 208,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "鲜：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 209,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "神：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 211,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "酸：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 213,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "苦：本道料理售价+100%"
+        },
+        {
+            "intentId": 214,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "传：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 215,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "CreateIntent",
+            "effectValue": 272,
+            "desc": "切：下道料理为辣时基础售价+50%"
+        },
+        {
+            "intentId": 217,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "SatietyChange",
+            "effectValue": 5,
+            "desc": "辣：本道料理饱腹感+5"
+        },
+        {
+            "intentId": 218,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "第二道菜：第二道菜基础售价+50%"
+        },
+        {
+            "intentId": 223,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "第二道菜：第二道菜饱腹感-3"
+        },
+        {
+            "intentId": 224,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "辣：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 225,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "CreateIntent",
+            "effectValue": 280,
+            "desc": "煮：下道料理为酸时基础售价+200"
+        },
+        {
+            "intentId": 227,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "1火：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 228,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "切：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 229,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 242,
+            "desc": "辣：下道料理为酸时售价+100%"
+        },
+        {
+            "intentId": 232,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "苦：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 233,
+            "conditionType": "Rank",
+            "conditionValue": "2",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "优：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 234,
+            "conditionType": "Order",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "第二道菜：第二道菜基础售价+200"
+        },
+        {
+            "intentId": 235,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 8,
+            "desc": "辣：下道料理为煮时售价+100%"
+        },
+        {
+            "intentId": 237,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "CreateIntent",
+            "effectValue": 108,
+            "desc": "2火：下道料理为辣时售价+100%"
+        },
+        {
+            "intentId": 239,
+            "conditionType": "Order",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "第三道菜：第三道菜基础售价+200"
+        },
+        {
+            "intentId": 240,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "神：本道料理售价+100%"
+        },
+        {
+            "intentId": 242,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "酸：本道料理售价+100%"
+        },
+        {
+            "intentId": 244,
+            "conditionType": "Rank",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "优：本道料理基础售价+200"
+        },
+        {
+            "intentId": 245,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "炸：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 246,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "4火：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 247,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "切：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 249,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "辣：本道料理基础售价+200"
+        },
+        {
+            "intentId": 252,
+            "conditionType": "Rank",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "优：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 253,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "鲜：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 254,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "SetSatietyValue",
+            "effectValue": 8,
+            "desc": "苦：本道料理饱腹感为8"
+        },
+        {
+            "intentId": 256,
+            "conditionType": "Order",
+            "conditionValue": "1",
+            "effectType": "SetSatietyValue",
+            "effectValue": 2,
+            "desc": "第一道菜：第一道菜饱腹感为2"
+        },
+        {
+            "intentId": 260,
+            "conditionType": "Rank",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "特：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 261,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "咸：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 265,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "神：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 266,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "烤：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 268,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "神：本道料理基础售价+200"
+        },
+        {
+            "intentId": 269,
+            "conditionType": "Order",
+            "conditionValue": "1",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "第一道菜：第一道菜基础售价+200"
+        },
+        {
+            "intentId": 270,
+            "conditionType": "Rank",
+            "conditionValue": "3",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "特：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 272,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "辣：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 273,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "传：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 274,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 4,
+            "desc": "传：本道料理饱腹感+4"
+        },
+        {
+            "intentId": 277,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "传：本道料理基础售价+200"
+        },
+        {
+            "intentId": 278,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "神：本道料理售价-150%"
+        },
+        {
+            "intentId": 279,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "炒：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 280,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "酸：本道料理基础售价+200"
+        },
+        {
+            "intentId": 282,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 29,
+            "desc": "三道切：下阶段切技法料理饱腹感-1"
+        },
+        {
+            "intentId": 283,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "神：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 284,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "传：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 285,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "3火：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 286,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "SatietyChange",
+            "effectValue": -5,
+            "desc": "苦：本道料理饱腹感-5"
+        },
+        {
+            "intentId": 287,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "CreateIntent",
+            "effectValue": 293,
+            "desc": "煮：下道料理饱腹感-2"
+        },
+        {
+            "intentId": 288,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "CreateIntent",
+            "effectValue": 294,
+            "desc": "3火：下道料理饱腹感-3"
+        },
+        {
+            "intentId": 289,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "CreateIntent",
+            "effectValue": 293,
+            "desc": "4火：下道料理饱腹感-2"
+        },
+        {
+            "intentId": 291,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "传：本道料理售价+100%"
+        },
+        {
+            "intentId": 292,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "切：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 293,
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "本道料理饱腹感-2"
+        },
+        {
+            "intentId": 294,
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "本道料理饱腹感-3"
+        },
+        {
+            "intentId": 295,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "4火：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 296,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "2火：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 297,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "5火：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 298,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "2火：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 299,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "传：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 300,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "1火：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 301,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "desc": "4火：本道料理饱腹感+1"
+        },
+        {
+            "intentId": 302,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "desc": "神：本道料理饱腹感+1"
+        },
+        {
+            "intentId": 303,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": -100,
+            "desc": "神：本道料理售价-100%"
+        },
+        {
+            "intentId": 304,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 50,
+            "desc": "三道切：下两阶段切技法料理饱腹感-2"
+        },
+        {
+            "intentId": 305,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 13,
+            "desc": "三道蒸：下两阶段炒技法料理饱腹感+1"
+        },
+        {
+            "intentId": 306,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 51,
+            "desc": "三道烤：下两阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 307,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": -150,
+            "desc": "炒：本道料理售价-150%"
+        },
+        {
+            "intentId": 308,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "煮：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 309,
+            "conditionType": "Group",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateBuff",
+            "effectValue": 44,
+            "desc": "三道炒：下阶段烤技法料理售价+100%"
+        },
+        {
+            "intentId": 310,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "SatietyChange",
+            "effectValue": 2,
+            "desc": "烤：本道料理饱腹感+2"
+        },
+        {
+            "intentId": 311,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "咸：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 312,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "3火：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 313,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "5火：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 314,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 52,
+            "desc": "三道切：下两阶段煮技法料理饱腹感-2"
+        },
+        {
+            "intentId": 315,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 53,
+            "desc": "三道炸：下两阶段炒技法料理饱腹感-2"
+        },
+        {
+            "intentId": 316,
+            "conditionType": "Group",
+            "conditionValue": "Steam",
+            "effectType": "CreateBuff",
+            "effectValue": 10,
+            "desc": "三道蒸：下两阶段切技法料理售价+50%"
+        },
+        {
+            "intentId": 317,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "4火：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 318,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "CreateIntent",
+            "effectValue": 242,
+            "desc": "鲜：下道料理为酸时售价+100%"
+        },
+        {
+            "intentId": 319,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 3,
+            "desc": "三道烤：下阶段炸技法料理售价+50%"
+        },
+        {
+            "intentId": 320,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 35,
+            "desc": "辣：下道料理为甜时售价+100%"
+        },
+        {
+            "intentId": 321,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "煮：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 322,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 30,
+            "desc": "5火：本道料理基础售价+30%"
+        },
+        {
+            "intentId": 323,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "SatietyChange",
+            "effectValue": 5,
+            "desc": "2火：本道料理饱腹感+5"
+        },
+        {
+            "intentId": 324,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "神：本道料理售价+50%"
+        },
+        {
+            "intentId": 325,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "PriceChangePercent",
+            "effectValue": 50,
+            "desc": "传：本道料理售价+50%"
+        },
+        {
+            "intentId": 326,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "SatietyChange",
+            "effectValue": -12,
+            "desc": "4火：本道料理饱腹感-12"
+        },
+        {
+            "intentId": 327,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "蒸：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 328,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "5火：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 329,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "SatietyChange",
+            "effectValue": 4,
+            "desc": "辣：本道料理饱腹感+4"
+        },
+        {
+            "intentId": 330,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 54,
+            "desc": "烤：下两阶段蒸技法料理饱腹感+2"
+        },
+        {
+            "intentId": 331,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "CreateBuff",
+            "effectValue": 47,
+            "desc": "传：下阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 332,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "CreateIntent",
+            "effectValue": 334,
+            "desc": "炒：下道料理饱腹感-5"
+        },
+        {
+            "intentId": 333,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "PriceChangePercent",
+            "effectValue": 200,
+            "desc": "炒：本道料理售价+200%"
+        },
+        {
+            "intentId": 334,
+            "effectType": "SatietyChange",
+            "effectValue": -5,
+            "desc": "本道料理饱腹感-5"
+        },
+        {
+            "intentId": 335,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 44,
+            "desc": "三道煮：下阶段烤技法料理售价+100%"
+        },
+        {
+            "intentId": 336,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 55,
+            "desc": "三道切：下阶段蒸技法料理基础售价+50%"
+        },
+        {
+            "intentId": 337,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 56,
+            "desc": "三道炸：下阶段煮技法料理基础售价+50%"
+        },
+        {
+            "intentId": 339,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 46,
+            "desc": "三道烤：下阶段炒技法料理基础售价+50%"
+        },
+        {
+            "intentId": 340,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "辣：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 341,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 168,
+            "desc": "辣：下道料理售价+100%"
+        },
+        {
+            "intentId": 343,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "SatietyChange",
+            "effectValue": 4,
+            "desc": "切：本道料理饱腹感+4"
+        },
+        {
+            "intentId": 344,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "甜：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 345,
+            "conditionType": "Rank",
+            "conditionValue": "3",
+            "effectType": "PriceChangePercent",
+            "effectValue": -300,
+            "desc": "特：本道料理售价-300%"
+        },
+        {
+            "intentId": 346,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "CreateBuff",
+            "effectValue": 39,
+            "desc": "传：下阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 347,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 294,
+            "desc": "辣：下道料理饱腹感-3"
+        },
+        {
+            "intentId": 348,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "鲜：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 349,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "切：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 350,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "IntentAdd",
+            "effectValue": 100,
+            "desc": "神：本道料理意图生效次数加一"
+        },
+        {
+            "intentId": 351,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": -5,
+            "desc": "5火：本道料理饱腹感-5"
+        },
+        {
+            "intentId": 352,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 100,
+            "desc": "2火：本道料理基础售价+100%"
+        },
+        {
+            "intentId": 353,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "烤：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 354,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "BasicPriceChange",
+            "effectValue": 300,
+            "desc": "咸：本道料理基础售价+300"
+        },
+        {
+            "intentId": 355,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "PriceChangePercent",
+            "effectValue": 150,
+            "desc": "甜：本道料理售价+150%"
+        },
+        {
+            "intentId": 356,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "PriceChangePercent",
+            "effectValue": 150,
+            "desc": "辣：本道料理售价+150%"
+        },
+        {
+            "intentId": 357,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "咸：本道料理基础售价+200"
+        },
+        {
+            "intentId": 358,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Tasty",
+            "effectType": "PriceChangePercent",
+            "effectValue": 100,
+            "desc": "鲜：本道料理售价+100%"
+        },
+        {
+            "intentId": 359,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "3火：本道料理基础售价+200"
+        },
+        {
+            "intentId": 360,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "SatietyChange",
+            "effectValue": -5,
+            "desc": "炒：本道料理饱腹感-5"
+        },
+        {
+            "intentId": 361,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "SatietyChange",
+            "effectValue": 3,
+            "desc": "烤：本道料理饱腹感+3"
+        },
+        {
+            "intentId": 362,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "SatietyChange",
+            "effectValue": 1,
+            "desc": "甜：本道料理饱腹感+1"
+        },
+        {
+            "intentId": 363,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": 4,
+            "desc": "3火：本道料理饱腹感+4"
+        },
+        {
+            "intentId": 364,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "煮：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 365,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": -10,
+            "desc": "5火：本道料理饱腹感-10"
+        },
+        {
+            "intentId": 366,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "SetSatietyValue",
+            "effectValue": 8,
+            "desc": "甜：本道料理饱腹感为8"
+        },
+        {
+            "intentId": 367,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "SatietyChange",
+            "effectValue": -4,
+            "desc": "炸：本道料理饱腹感-4"
+        },
+        {
+            "intentId": 368,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "SatietyChange",
+            "effectValue": -10,
+            "desc": "1火：本道料理饱腹感-10"
+        },
+        {
+            "intentId": 369,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 15,
+            "desc": "5火：本道料理饱腹感+15"
+        },
+        {
+            "intentId": 370,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "PriceChangePercent",
+            "effectValue": -100,
+            "desc": "辣：本道料理售价-100%"
+        },
+        {
+            "intentId": 371,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": -6,
+            "desc": "传：本道料理饱腹感-6"
+        },
+        {
+            "intentId": 372,
+            "conditionType": "Group",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 57,
+            "desc": "三道切：下两阶段炒技法料理售价+100%"
+        },
+        {
+            "intentId": 373,
+            "conditionType": "Group",
+            "conditionValue": "Fry",
+            "effectType": "CreateBuff",
+            "effectValue": 25,
+            "desc": "三道炸：下两阶段炒技法料理饱腹感-1"
+        },
+        {
+            "intentId": 374,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 25,
+            "desc": "三道烤：下两阶段炒技法料理饱腹感-1"
+        },
+        {
+            "intentId": 375,
+            "conditionType": "Group",
+            "conditionValue": "Boil",
+            "effectType": "CreateBuff",
+            "effectValue": 10,
+            "desc": "三道煮：下两阶段切技法料理售价+50%"
+        },
+        {
+            "intentId": 376,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Salty",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 50,
+            "desc": "咸：本道料理基础售价+50%"
+        },
+        {
+            "intentId": 377,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "蒸：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 378,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "CreateBuff",
+            "effectValue": 58,
+            "desc": "5火：下两阶段煮技法料理售价+100%"
+        },
+        {
+            "intentId": 379,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 59,
+            "desc": "三道烤：下两阶段烤技法料理售价+100%"
+        },
+        {
+            "intentId": 380,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 20,
+            "desc": "三道烤：下两阶段烤技法料理饱腹感+1"
+        },
+        {
+            "intentId": 381,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 53,
+            "desc": "三道烤：下两阶段炒技法料理饱腹感-2"
+        },
+        {
+            "intentId": 382,
+            "conditionType": "Group",
+            "conditionValue": "Bake",
+            "effectType": "CreateBuff",
+            "effectValue": 60,
+            "desc": "三道烤：下两阶段蒸技法料理饱腹感-2"
+        },
+        {
+            "intentId": 383,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sweet",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 100,
+            "desc": "甜：本道料理基础售价+100%"
+        },
+        {
+            "intentId": 384,
+            "conditionType": "CookSkill",
+            "conditionValue": "Fry",
+            "effectType": "CreateIntent",
+            "effectValue": 168,
+            "desc": "炸：下道料理售价+100%"
+        },
+        {
+            "intentId": 385,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Spicy",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "辣：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 386,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": -15,
+            "desc": "3火：本道料理饱腹感-15"
+        },
+        {
+            "intentId": 387,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "SatietyChange",
+            "effectValue": -15,
+            "desc": "2火：本道料理饱腹感-15"
+        },
+        {
+            "intentId": 388,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 200,
+            "desc": "3火：本道料理基础售价+200%"
+        },
+        {
+            "intentId": 389,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 200,
+            "desc": "2火：本道料理基础售价+200%"
+        },
+        {
+            "intentId": 390,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "CreateIntent",
+            "effectValue": 168,
+            "desc": "4火：下道料理售价+100%"
+        },
+        {
+            "intentId": 391,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "BasicPriceChange",
+            "effectValue": 500,
+            "desc": "4火：本道料理基础售价+500"
+        },
+        {
+            "intentId": 392,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "SatietyChange",
+            "effectValue": 4,
+            "desc": "酸：本道料理饱腹感+4"
+        },
+        {
+            "intentId": 393,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "CreateIntent",
+            "effectValue": 1,
+            "desc": "蒸：下道料理意图生效次数加一"
+        },
+        {
+            "intentId": 394,
+            "conditionType": "Rarity",
+            "conditionValue": "5",
+            "effectType": "SatietyChange",
+            "effectValue": 5,
+            "desc": "5火：本道料理饱腹感+5"
+        },
+        {
+            "intentId": 395,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 100,
+            "desc": "切：本道料理基础售价+100%"
+        },
+        {
+            "intentId": 396,
+            "conditionType": "Rarity",
+            "conditionValue": "2",
+            "effectType": "BasicPriceChange",
+            "effectValue": 150,
+            "desc": "2火：本道料理基础售价+150"
+        },
+        {
+            "intentId": 397,
+            "conditionType": "Rarity",
+            "conditionValue": "4",
+            "effectType": "CreateBuff",
+            "effectValue": 62,
+            "desc": "4火：下两阶段炸技法料理售价+100%"
+        },
+        {
+            "intentId": 398,
+            "conditionType": "Rarity",
+            "conditionValue": "3",
+            "effectType": "CreateBuff",
+            "effectValue": 61,
+            "desc": "3火：下两阶段苦技法料理基础售价+50%"
+        },
+        {
+            "intentId": 399,
+            "conditionType": "Rank",
+            "conditionValue": "5",
+            "effectType": "CreateBuff",
+            "effectValue": 2,
+            "desc": "传：下阶段炒技法料理售价+50%"
+        },
+        {
+            "intentId": 400,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Sour",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "酸：本道料理饱腹感-3"
+        },
+        {
+            "intentId": 401,
+            "conditionType": "Rank",
+            "conditionValue": "4",
+            "effectType": "BasicPriceChangePercent",
+            "effectValue": 100,
+            "desc": "神：本道料理基础售价+100%"
+        },
+        {
+            "intentId": 402,
+            "conditionType": "Rarity",
+            "conditionValue": "1",
+            "effectType": "PriceChangePercent",
+            "effectValue": 200,
+            "desc": "1火：本道料理售价+200%"
+        },
+        {
+            "intentId": 403,
+            "conditionType": "CookSkill",
+            "conditionValue": "Steam",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "蒸：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 404,
+            "conditionType": "CookSkill",
+            "conditionValue": "Boil",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "煮：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 405,
+            "conditionType": "Order",
+            "conditionValue": "3",
+            "effectType": "SatietyChange",
+            "effectValue": -3,
+            "desc": "第三道菜：第三道菜饱腹感-3"
+        },
+        {
+            "intentId": 406,
+            "conditionType": "CookSkill",
+            "conditionValue": "Knife",
+            "effectType": "CreateBuff",
+            "effectValue": 39,
+            "desc": "切：下阶段切技法料理售价+100%"
+        },
+        {
+            "intentId": 407,
+            "conditionType": "CondimentSkill",
+            "conditionValue": "Bitter",
+            "effectType": "BasicPriceChange",
+            "effectValue": 200,
+            "desc": "苦：本道料理基础售价+200"
+        },
+        {
+            "intentId": 459,
+            "conditionType": "CookSkill",
+            "conditionValue": "Stirfry",
+            "effectType": "SatietyChange",
+            "effectValue": -2,
+            "desc": "炒：本道料理饱腹感-2"
+        },
+        {
+            "intentId": 471,
+            "conditionType": "CookSkill",
+            "conditionValue": "Bake",
+            "effectType": "CreateIntent",
+            "effectValue": 294,
+            "desc": "烤：下道料理饱腹感-3"
+        }
+    ]
+}
